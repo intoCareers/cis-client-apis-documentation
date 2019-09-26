@@ -14,7 +14,7 @@ sequenceDiagram
     participant Finished
     Client->>aid_index_aid_get: Get First Page Of Aid Index
     Note right of aid_index_aid_get: See  <br/>aid_index_aid_get.md
-    aid_index_aid_get->>aid_index_aid_page_get: [ NEXT PAGE? ] Need To Display More Aid Items?
+    Client->>aid_index_aid_page_get: [ NEXT PAGE? ] Need To Display More Aid Items?
     loop NEXT PAGE Yes
         aid_index_aid_page_get->>aid_index_aid_page_get: Get next page of aid index
     end
