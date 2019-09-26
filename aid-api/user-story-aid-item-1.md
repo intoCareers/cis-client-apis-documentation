@@ -6,7 +6,7 @@ Requirements:
 - [ ] Aid Item ID
 
 ## Sequence:
-- [ ] Retrieve copy text for the given aid item element from ````GET /aid/copytext/{aidID}````. [Copy Text Endpoint Readme](/aid-api/endpoints/copy_text_copytext_aidID.md).
+- [ ] Retrieve copy text sections for the given aid item element from ````GET /aid/copytext/{aidID}````. [Copy Text Endpoint Readme](/aid-api/endpoints/copy_text_copytext_aidID.md).
 
 ![Alt text](/aid-api/assets/user-story-aid-item-1.png?raw=true)
 
