@@ -4,7 +4,7 @@ Description: The client needs to display the aid index on page render.
 
 ## Sequence
 
-- [] Retrieve the first "page" of the Aid Index. [Index Endpoint Readme](/aid_api/endpoints/aid_index_aid_get.md).
+- [] Retrieve the first "page" of the Aid Index. [Index Endpoint Readme](/aid-api/endpoints/aid_index_aid_get.md).
     - [] Use the base GET /aid get request to retrieve first 25 items
 - [] If the client needs to access more aid items use the GET /aid/{page}
 
