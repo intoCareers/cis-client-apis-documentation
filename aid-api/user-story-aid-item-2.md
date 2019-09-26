@@ -1,12 +1,14 @@
-# Accessing Aid Index
+# Accessing Aid Item With Copy Text And Sort Type Sections
 
-Description: The client needs to display the aid index on page render.
+Description: As in [aid item user story 1](/aid_api/user-story-aid-item-1), The client needs to display an aid item including all of the meta information related to the "buckets" to which the aid item belongs.
 
-## Sequence
+Requirements:
+- [] Aid Item ID
 
-- [] Retrieve the first "page" of the Aid Index. [Index Endpoint Readme](/aid_api/endpoints/aid_index_aid_get.md).
+## Sequence:
+- [] Retrieve copy text for the given aid item element from GET /aid/copytext/{aidID}. [Copy Text Endpoint Readme](/aid_api/copy_test_copytext_aidID.md).
     - [] Use the base GET /aid get request to retrieve first 25 items
-- [] If the client needs to access more aid items use the GET /aid/{page}
+- [] If filterable meta information requested then use 
 
 ![Alt text](/aid-api/assets/user-story-index-1.png?raw=true)
 

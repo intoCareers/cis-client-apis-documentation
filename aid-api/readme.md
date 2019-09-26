@@ -1,11 +1,11 @@
 
 ## SECTIONS
 
-Sections are a generic container for information related to a given aid item.  This can include filterable sections or copy text sections.  Section types are used to differentiate between these 2 types of sections.  Sections are further identified into topics.  Each section element has a topic that identifies th.
+Sections are a generic container for information related to a given aid item.  This can include sort type sections or copy text sections.  Section types are used to differentiate between these 2 types of sections.  Sections are further identified into topics.  Each section element has a topic that identifies the "bucket" of which this sections item is a member.
 
 ### Topics
 
-Topics represent the logical boundaries for the section element.  The section elements can then be grouped into buckets related to client interest such as gender, heratige, finacial need, ect.  For filterable section elements, there are 22 unique topcis.
+Topics represent the logical boundaries or a "bucket" for the section element.  Topics allow section elements to create an association between aid items and "buckets" such as gender, heratige, finacial need, ect.  There are 22 unique topcis for sort type section elements.
 
 ## SWAGGER
 https://services.intocareers.net/swagger/aid

@@ -1,9 +1,11 @@
-# Render Filtered Aid Index
+# Accessing Filtered Aid Index
 
 Description: The client needs to display a filtered index of aid items.
 
-- [] Retreive filter options from endpoints for filter keys (GET /aid/keys/filter/{topicID} [Filter Keys Endpoint Readme](/aid_api/filter_keys_keys_filter_topicID.md)) and clusters (GET /aid-clusters [Aid Clusters Endpoint Readme](/aid_api/aid_clusters_aid-clusters.md)).
-- [] Request the filtered Aid Index. [Filtered Index Endpoint Readme](/aid_api/aid_index_aid_get.md).
+## Sequence
+
+- [] Retreive filter options from endpoints for filter keys (GET /aid/keys/filter/{topicID} [Filter Keys Endpoint Readme](/aid_api/endpoints/filter_keys_keys_filter_topicID.md)) and clusters (GET /aid-clusters [Aid Clusters Endpoint Readme](/aid_api/endpoints/aid_clusters_aid-clusters.md)).
+- [] Retrieve the filtered Aid Index. [Filtered Index Endpoint Readme](/aid_api/endpoints/aid_index_aid_get.md).
     - [] Use the base POST /aid with and desired filter options I provided to retrieve page 1 of filtered aid items index.
 - [] If there are more aid items past page 1 and the client needs to access more filtered aid items use the POST /aid with the same filter options except page which should be itterated by 1.
 
