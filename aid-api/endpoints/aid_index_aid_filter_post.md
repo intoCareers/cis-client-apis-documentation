@@ -1,7 +1,7 @@
 # Aid Filter POST
 
 ## Description
-Aid filter provides an array of aid items ids filtered from sections attributes. 
+Aid filter provides an array of aid items ids filtered from sections attributes.  This filter is faster compared to the filtered index request, but does not provide data about the aid items.
 
 ## Swagger Link
 http://localhost:3000/swagger/aid#/Aid_Index/post_api_v1_aid_filter

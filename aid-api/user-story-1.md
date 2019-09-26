@@ -2,23 +2,23 @@
 
 Description: The client needs to display the aid index on page render.
 
-- [] Start by requesting the first "page" of the Aid Index (aid_index_aid_get.md).
-    - [] Use the base /aid get request to retrieve first 25 items
-- [] If the client needs to access more aid items use the /aid/{page}
+- [] Start by requesting the first "page" of the Aid Index. [Index Endpoint Readme](/aid_api/aid_index_aid_get.md).
+    - [] Use the base GET /aid get request to retrieve first 25 items
+- [] If the client needs to access more aid items use the GET /aid/{page}
 
-![Alt text](/aid-api/assets/user-story-1.png?raw=true)
+![Alt text](/aid-api/assets/user-story-index-1.png?raw=true)
 
 ````
 sequenceDiagram
     participant Client
-    participant aid_index_aid_get
-    participant aid_index_aid_page_get
-    participant Finished
-    Client->>aid_index_aid_get: Get First Page Of Aid Index
-    Note right of aid_index_aid_get: See  <br/>aid_index_aid_get.md
-    Client->>aid_index_aid_page_get: [ NEXT PAGE? ] Need To Display More Aid Items?
+    participant GET /aid
+    participant GET /aid/{page}
+    participant DONE
+    Client->>GET /aid: Get First Page Of Aid Index
+    Note right of GET /aid: See  <br/>aid_index_aid_get.md
+    Client->>GET /aid/{page}: [ NEXT PAGE? ] Need To Display More Aid Items?
     loop NEXT PAGE Yes
-        aid_index_aid_page_get->>aid_index_aid_page_get: Get next page of aid index
+        GET /aid/{page}->>GET /aid/{page}: Get next page of aid index
     end
-    aid_index_aid_page_get-->>Finished: [ NEXT PAGE No ]
+    GET /aid/{page}-->>DONE: [ NEXT PAGE No ]
 ````
