@@ -6,7 +6,9 @@ Description: The client needs to display the aid index on page render.
     - [] Use the base /aid get request to retrieve first 25 items
 - [] If the client needs to access more aid items use the /aid/{page}
 
+![Alt text](/aid-api/assets/user-story-1.png?raw=true)
 
+````
 sequenceDiagram
     participant Client
     participant aid_index_aid_get
@@ -19,4 +21,4 @@ sequenceDiagram
         aid_index_aid_page_get->>aid_index_aid_page_get: Get next page of aid index
     end
     aid_index_aid_page_get-->>Finished: [ NEXT PAGE No ]
-
+````
