@@ -49,11 +49,12 @@ The JWT (JSON Web Token) is an generated access token for 3rd party clients orga
     type: Array<String>
     description:  Array of access scopes used to give access to specific api modules.  See Omni-Scope section for for special scopes
     values:
-        "programs:read",
-        "schools:read",
-        "occupations:read",
-        "industry:read",
-        "assessment:all"
+        "programs:read", -- Used to request access to programs api.
+        "schools:read",  --  Used to request access to programs api.
+        "occupations:read",  --  Used to request access to programs api.
+        "industry:read",  --  Used to request access to programs api.
+        "abilityexplorer:read", --  Used to request access to AE assessment api.
+        "assessment:all"  --  Used to request access to all assessment apis to which the client has been given access.
 ### user
     type: Object
     description: Used by the client to link assessments with users from "their system".
