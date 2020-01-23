@@ -23,10 +23,10 @@ The JWT (JSON Web Token) is an generated access token for 3rd party clients orga
     "industry:read",
     "assessment:all"
   ],
-@TODO
   "user": {
-      "name":"TEMP"
-
+    orgId,
+    orgName,
+    id: res.locals.jwt.clientUserId,
   }
 ````
 
@@ -57,4 +57,4 @@ The JWT (JSON Web Token) is an generated access token for 3rd party clients orga
         "assessment:all"  --  Used to request access to all assessment apis to which the client has been given access.
 ### user
     type: Object
-    description: Used by the client to link assessments with users from "their system".
+    description: Used by the client to link assessments with users from "their system".  See Client User for more information.
