@@ -7,4 +7,4 @@ To test out an "iframe" solution please create a JWT and use the following url w
 https://qa.apps.intocareers.net/loadIframe/{YOUR_JWT_GOES_HERE}
 
 ## Implementing A Standalone
-![Alt text](/standalone-modules/assets/3rd-Party-Stand=Alone.png?raw=true)
+![Alt text](/standalone-modules/assets/3rd-Party-Stand-Alone.png?raw=true)
