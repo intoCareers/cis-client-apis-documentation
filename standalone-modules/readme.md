@@ -7,4 +7,4 @@ To test out an "iframe" solution please create a JWT and use the following url w
 https://qa.apps.intocareers.net/loadIframe/{YOUR_JWT_GOES_HERE}
 
 ## Implementing A Standalone
-https://github.com/intoCareers/cis-client-apis-documentation/blob/master/standalone-modules/3rd%20Party%20Stand%20Alone.png
+![Alt text](/standalone-modules/assets/3rd Party Stand Alone.png?raw=true)
