@@ -8,6 +8,12 @@ To render the module as an iframe you will need the following code in your rende
     <script>iFrameResize({log:false})</script>
 ````
 
+Note: When mutliple iFrames are on the page you will need to add a unique id to the iframe dom element and target it by replacing line 3 above with:
+
+````
+<script> iFrameResize({log:false, checkOrigin: false}, '{YOUR_DOM_ELEMENT_ID')</script>
+````
+
 ### JWT_GOES_HERE
 The JWT created by the backend server will need to be injected here.
 
