@@ -161,7 +161,7 @@ The response is scoped to the state(s) used at JWT creation time extended with t
 
 ## Example Aid Index Item
 
-See aid-index-get.md
+See [aid_index_aid_get.md](aid_index_aid_get.md)
 
 ## NOTES
 
