@@ -6,10 +6,10 @@ Requirements:
 - [ ] Aid Item ID
 
 ## Sequence:
-- [ ] Retrieve Copy Text sections for the given aid item element from ````GET /aid/copytext/{aidID}````. [Copy Text Endpoint Readme](/aid-api/endpoints/copy_text_copytext_aidID.md).
-- [ ] Retrieve Sort Type sections for the given aid item element from ````GET /aid/sections/{aidID}````. [Copy Text Endpoint Readme](/aid-api/endpoints/copy_text_sections_aidID.md).
+- [ ] Retrieve Copy Text sections for the given aid item element from ````GET /aid/copytext/{aidID}````. [Copy Text Endpoint Readme](/api-aid/endpoints/copy_text_copytext_aidID.md).
+- [ ] Retrieve Sort Type sections for the given aid item element from ````GET /aid/sections/{aidID}````. [Copy Text Endpoint Readme](/api-aid/endpoints/copy_text_sections_aidID.md).
 
-![Alt text](/aid-api/assets/user-story-aid-item-2.png?raw=true)
+![Alt text](/api-aid/assets/user-story-aid-item-2.png?raw=true)
 
 ````
 sequenceDiagram
