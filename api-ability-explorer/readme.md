@@ -16,26 +16,41 @@ Typical workflows have been documented in the user-stories directory.
 
 # User Stories
 
-## How To: Get Site Copy Needed To Display Front-End
+## How To: Sequence Logic For Displaying Module Elements
 
-### The client needs to display the questions and responses
+### The Client Needs To Display The Questions And Responses
+https://github.com/intoCareers/cis-client-apis-documentation/blob/master/api-aid/user-stories/user-story-index-1.md
 
-### 
-
+### The Client Needs To Display A Restore Option
+https://github.com/intoCareers/cis-client-apis-documentation/blob/master/api-aid/user-stories/user-story-index-1.md
 
 ## How To: Scoring An Assessment
 
 ### The client needs to score an answer set.
-https://github.com/intoCareers/cis-client-apis-documentation/blob/master/aid-api/user-stories/user-story-index-1.md
+https://github.com/intoCareers/cis-client-apis-documentation/blob/master/api-aid/user-stories/user-story-index-1.md
 
 ### The client needs to rescore an answer set.
-https://github.com/intoCareers/cis-client-apis-documentation/blob/master/aid-api/user-stories/user-story-index-2.md
+https://github.com/intoCareers/cis-client-apis-documentation/blob/master/api-aid/user-stories/user-story-index-2.md
 
-## How To: Access Ability Explorer Results  
+## How To: Saving An Assessment
+
+### The client needs to save an incomplete answer set.
+https://github.com/intoCareers/cis-client-apis-documentation/blob/master/api-aid/user-stories/user-story-index-1.md
+
+### The client needs to score a previously incomplete answer set.
+https://github.com/intoCareers/cis-client-apis-documentation/blob/master/api-aid/user-stories/user-story-index-1.md
+
+
+## How To: Accessing Ability Explorer Results  
+
+### The client needs to display the best matches and Ability Areas.
+https://github.com/intoCareers/cis-client-apis-documentation/blob/master/api-aid/user-stories/user-story-aid-item-1.md
 
 ### The client needs to display the occ index results (either from one ability cluster or two).
-https://github.com/intoCareers/cis-client-apis-documentation/blob/master/aid-api/user-stories/user-story-aid-item-1.md
+https://github.com/intoCareers/cis-client-apis-documentation/blob/master/api-aid/user-stories/user-story-aid-item-1.md
 
-### As in [aid item user story 1](/aid_api/user-story-aid-item-1), The client needs to display an aid item including all of the meta information related to the sectional "buckets" to which the aid item belongs.
-https://github.com/intoCareers/cis-client-apis-documentation/edit/master/aid-api/user-stories/user-story-aid-item-2.md
+### The client needs to display top three abilities.
+https://github.com/intoCareers/cis-client-apis-documentation/blob/master/api-aid/user-stories/user-story-aid-item-1.md
 
+### The client needs to display a single occupation.
+https://github.com/intoCareers/cis-client-apis-documentation/blob/master/api-aid/user-stories/user-story-aid-item-1.md
