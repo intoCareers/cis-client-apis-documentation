@@ -9,7 +9,7 @@ Description: The client needs to get the Questions and the Options(Responses) fr
 - [ ] In Parallal client need to hit ````GET /api/v1/assessment/ae/pageText```` to get the All pages text.
 - [ ] Above two API results will be mapped respectively in UI.
 
-
+![Alt text](/api-ability-explorer/assets/page-text.png?raw=true)
 
 ````
 sequenceDiagram
