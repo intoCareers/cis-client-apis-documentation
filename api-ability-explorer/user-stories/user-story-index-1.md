@@ -9,19 +9,21 @@ Description: The client needs to get the Questions and the Options(Responses) fr
 - [ ] In Parallal client need to hit ````GET /api/v1/assessment/ae/pageText```` to get the All pages text.
 - [ ] Above two API results will be mapped respectively in UI.
 
-![Alt text](/api-aid/assets/user-story-index-1.png?raw=true)
+
 
 ````
 sequenceDiagram
+    
     participant Client
-    participant GET /aid
-    participant GET /aid/{page}
-    participant DONE
-    Client->>GET /aid: Get First Page Of Aid Index
-    Note right of GET /aid: See  <br/>aid_index_aid_get.md
-    Client->>GET /aid/{page}: [ NEXT PAGE ] Need To Display More Aid Items?
-    loop NEXT PAGE Yes
-        GET /aid/{page}->>GET /aid/{page}: Get next page of aid index
-    end
-    GET /aid/{page}-->>DONE: [ NEXT PAGE No ]
+    participant GET /ae/pageText
+    participant GET /ae/questions
+    participant GET /ae/responses
+    Client->>GET /ae/pageText: Request for All pages text    
+    GET /ae/pageText-->> Client: Get all the texts to display in screen
+    Client->>GET /ae/questions: Request for the Questions List
+    GET /ae/questions-->>Client:Get the List of questions
+    Client->>GET /ae/responses: Request for the Response texts.
+    GET /ae/responses-->>Client:Get Responses(Question's Options)
+    
+    [ NEXT PAGE ]
 ````
