@@ -19,7 +19,7 @@ Typical workflows have been documented in the user-stories directory.
 ## How To: Sequence Logic For Displaying Module Elements
 
 ### The Client Needs To Display The Questions And Responses
-https://github.com/intoCareers/cis-client-apis-documentation/blob/master/api-aid/user-stories/user-story-index-1.md
+[user-stories/user-story-index-1.md](/api-ability-explorer/user-stories/user-story-index-1.md)
 
 ### The Client Needs To Display A Restore Option
 https://github.com/intoCareers/cis-client-apis-documentation/blob/master/api-aid/user-stories/user-story-index-1.md
