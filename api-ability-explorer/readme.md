@@ -1,5 +1,5 @@
 ## SWAGGER
-https://services.intocareers.net/swagger/aid
+https://services.intocareers.net/swagger/assessments-ability-explorer
 
 ## Endpoints
 Provided in the endpoints directory are a description of the endpoints that comprise the aid api.
