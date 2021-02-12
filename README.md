@@ -10,7 +10,7 @@ QA: https://qa.services.intocareers.net/
 ## [/access](https://github.com/intoCareers/cis-client-apis-documentation/tree/master/access)
 Documentation of the creation of access tokens and user types.
 
-## [/aid-api](https://github.com/intoCareers/cis-client-apis-documentation/tree/master/aid-api)
+## [/api-aid](https://github.com/intoCareers/cis-client-apis-documentation/tree/master/api-aid)
 Documentation of user stories related to aid module api.
 https://qa.services.intocareers.net/swagger/aid
 
