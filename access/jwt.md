@@ -1,14 +1,8 @@
 The JWT (JSON Web Token) is an generated access token for 3rd party clients organizations to use the client apis.  Generally, the JWT will be passed in each request to the APIs in the request header.  In standalone application, the JWT is passed in via the URL used to "load" the application.
 
-# Manually Creating A JWT
+# Manually Creating A Client JWT
 
-- [ ] Navigate to https://qa.services.intocareers.net/
-- [ ] Select an API
-- [ ] Select the /auth/token/create endpoint.  For Ability Explorer that would be https://qa.services.intocareers.net/swagger/assessments-ability-explorer#/auth/post_auth_token_create
-- [ ] Select ‘try out’, then ‘edit’ and enter in your request body explained below.
-- [ ] Select ‘execute’ and observe the JWT will be returned.
-- [ ] Note: When implementing this for stand-alone modules, the JWT will be created using the same endpoint route.   The request sent to the create endpoint will need to be mirrored on the backed of your server using your credentials to create the url described below.
-
+See user-story-create-client-jwt.md.
 
 ## Example Create Request:
 
