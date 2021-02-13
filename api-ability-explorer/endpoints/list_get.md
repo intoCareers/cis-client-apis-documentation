@@ -1,4 +1,4 @@
-# Filter Keys
+# LIST
 
 ## Description
 Retrieve all assessments taken for the given user.
@@ -17,8 +17,6 @@ https://services.intocareers.net/swagger/assessments-ability-explorer#/History/g
 
 
 ## Example list
-
-All filter keys will have an "omit" option to represent the Not Specified "Bucket".  This key conveys the intention to include items that have no specified filter key for the topic.  For example, the object below is the Not Specified key for Gender topic.  This would return all aid items that have not been specified as male or female for the gender topic.
 
 ```javascript
   [
