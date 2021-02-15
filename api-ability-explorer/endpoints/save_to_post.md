@@ -7,10 +7,10 @@ Save a set of answers before the assessment has been completed.  Oftentimes the 
 This is not a TX event causing request.
 
 ## Swagger Link
-https://services.intocareers.net/swagger/assessments-ability-explorer#/Scoring/post_api_v1_assessment_ae_save_to__restoreKey_
+https://services.intocareers.net/swagger/assessments-ability-explorer#/Scoring/get_api_v1_assessment_ae_restore_from__restoreKey_
 
 
-## Example Save
+## Example Save To
 
 ```javascript
 {
@@ -22,8 +22,6 @@ https://services.intocareers.net/swagger/assessments-ability-explorer#/Scoring/p
 ------------
 #### restoreKey:
 Description: See [See restore-key](https://github.com/intoCareers/cis-client-apis-documentation/tree/master/access/user-input/restore-key.md)
-
-This restoreKey is used to use this answerSet to score or save over again.
 
 ------------
 #### txCount:

@@ -10,16 +10,16 @@ https://qa.services.intocareers.net/swagger/assessments-ability-explorer#/User_I
 
 ````
   "user": {
-    orgId: '1'
-    orgName: 'exampleOr'
-    id: 'User1'
+    "orgId": "1",
+    "orgName": "exampleOr",
+    "id": "User1"
   }
 ````
 
 ### orgID
     type: String
     Description: provided by client to identify 2nd degree 3rd parties (clients of the client)
-### orgId
+### orgName
     type: String
     Description: provided by client to identify 2nd degree 3rd parties (clients of the client)
 ### id
